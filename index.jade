@@ -19,19 +19,19 @@ html(lang='ko')
         each item1 in index
           if !!item1.sub && item1.sub.length > 0
             li
-              a(href=path+"/"+item1.title+".html") #{item1.title}
+              a(href=path+"/"+item1.link+".html") #{item1.title}
                 ul
                   each item2 in item1.sub
                     if !!item2.sub && item2.sub.length > 0
                       li
-                        a(href=path+"/"+item2.title+".html") #{item2.title} 
+                        a(href=path+"/"+item2.link+".html") #{item2.title} 
                           ul
                             each item3 in item2.sub
                               li
-                                a(href=path+"/"+item3.title+".html") #{item3.title}  
+                                a(href=path+"/"+item3.link+".html") #{item3.title}  
                     else
                       li
-                        a(href=path+"/"+item2.title+".html") #{item2.title}  
+                        a(href=path+"/"+item2.link+".html") #{item2.title}  
           else  
             li
-              a(href=path+"/"+item1.title+".html") #{item1.title}
+              a(href=path+"/"+item1.link+".html") #{item1.title}

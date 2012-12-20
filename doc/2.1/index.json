@@ -3,15 +3,18 @@
     "description": "Titanium Guide 2.1 for Korean : 열린 번역 프로젝트",
     "index": [
         {
-            "title" : "Quick_Start",
+            "title" : "시작하기",
+            "link" : "Quick_Start",
             "editor": ["miconblog"]
         },
         {
-        	"title" : "Installation_and_Configuration",
+        	"title" : "설치와 설정",
+        	"link"  : "Installation_and_Configuration",
         	"editor": [],
         	"sub" : [
         		{
-        			"title" : "Setting_up_Titanium_Studio",
+        		   	"title" : "타이타늄 스튜디오 설치하기",
+        			"link"  : "Setting_up_Titanium_Studio",
         			"editor": []
         		}
         	]
